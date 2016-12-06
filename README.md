@@ -6,4 +6,4 @@ The code given only picks one of the lecturers' names. The exercise is to loop t
 
 ## Exercise 01 part 2
 
-Add a property to the 'data.js' - say a room number, an email address, a URL to their uni web page or (more abmitiously) a URL to an an image of each lecturer that links to their uni web page.
+Add an extra property to the lecturers in 'data.js' - say a room number, an email address, a URL to their uni web page or (more abmitiously) a URL to an an image of each lecturer that links to their uni web page.
