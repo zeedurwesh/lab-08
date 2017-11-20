@@ -13,10 +13,6 @@ let jsonString = `
     "lastName":"Attwood"
   },
   {
-    "firstName":"Jenny",
-    "lastName":"Carter"
-  },
-  {
     "firstName":"David",
     "lastName":"Smallwood"
   },
