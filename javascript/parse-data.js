@@ -15,7 +15,15 @@
   // set theData here to an empty string
   
   // create a loop around this line with "for ... in" (look it up)_
-  let theData = `${obj.lecturers[1].firstName} ${obj.lecturers[1].lastName}`;
+  
+  
+  let theData = "";
+    
+  for (lec in obj.lecturers){
+	theData += `<td>${obj.lecturers[lec].firstName} ${obj.lecturers[lec].lastName}
+	${obj.lecturers[lec].roomNumber} ${obj.lecturers[lec].emailAddress}</td>`;
+  }
+
   // end the for loop here
   
   // populates the chosen element's content with the data:
